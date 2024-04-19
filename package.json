@@ -1,9 +1,13 @@
 {
-  "name": "currency_converter",
+  "name": "@kanwalshahzadi/currency_converter",
   "version": "1.0.0",
   "description": "This open-source tool provides a seamless solution for currency conversion",
   "main": "index.js",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
